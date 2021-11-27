@@ -1,0 +1,83 @@
+[
+    {
+        "name": "mimi",
+        "texture_path": "res://mimi_icon.png",
+        "stats": {
+            "speed": 100,
+            "size": 1,
+            "invincibility": 3
+        }
+    },
+    {
+        "name": "voltorb",
+        "texture_path": "res://dots/tile001.png",
+        "stats": {
+            "speed": 150,
+            "size": 1.5,
+            "invincibility": 4
+        }
+    },
+    {
+        "name": "shelder",
+        "texture_path": "res://dots/tile002.png",
+        "stats": {
+            "speed": 200,
+            "size": 0.5,
+            "invincibility": 10
+        }
+    },
+    {
+        "name": "polywhirl",
+        "texture_path": "res://dots/tile004.png",
+        "stats": {
+            "speed": 250,
+            "size": 1.5,
+            "invincibility": 4
+        }
+    },
+    {
+        "name": "haunter",
+        "texture_path": "res://dots/tile012.png",
+        "stats": {
+            "speed": 300,
+            "size": 1.5,
+            "invincibility": 4
+        }
+    },
+    {
+        "name": "cloyster",
+        "texture_path": "res://dots/tile017.png",
+        "stats": {
+            "speed": 350,
+            "size": 1.5,
+            "invincibility": 4
+        }
+    },
+    {
+        "name": "abomasnow",
+        "texture_path": "res://dots/tile021.png",
+        "stats": {
+            "speed": 400,
+            "size": 1.5,
+            "invincibility": 4
+        }
+    },
+    {
+        "name": "luxray",
+        "texture_path": "res://dots/tile029.png",
+        "stats": {
+            "speed": 450,
+            "size": 1.5,
+            "invincibility": 4
+        }
+    },
+    {
+        "name": "palkia",
+        "texture_path": "res://dots/tile031.png",
+        "stats": {
+            "speed": 500,
+            "size": 1.5,
+            "invincibility": 4
+        }
+    }
+]

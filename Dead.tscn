@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Dead.gd" type="Script" id=1]
+
+[node name="Dead" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 601.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 390.0
+margin_top = 296.0
+margin_right = 430.0
+margin_bottom = 336.0
+text = "DEAD"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Best" type="RichTextLabel" parent="."]
+margin_left = 523.0
+margin_top = 459.0
+margin_right = 563.0
+margin_bottom = 499.0
+text = "Best"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="score" type="RichTextLabel" parent="."]
+margin_left = 461.0
+margin_top = 307.0
+margin_right = 501.0
+margin_bottom = 347.0
+text = "0
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="high_score" type="RichTextLabel" parent="."]
+margin_left = 573.0
+margin_top = 455.0
+margin_right = 613.0
+margin_bottom = 495.0
+text = "0
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
